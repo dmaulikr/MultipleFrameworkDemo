@@ -10,8 +10,8 @@ let package = Package(
         /* Only the selectable features are shown to users */
         .library(name: "FeatureA", targets: ["FeatureA"]),
         .library(name: "FeatureB", targets: ["FeatureB"]),
-        .library(name: "FeatureC", targets: ["FeatureC"]),
-        .library(name: "FeatureD", targets: ["FeatureD"]),
+        .library(name: "FeatureC", targets: ["FeatureC"])
+        /*.library(name: "FeatureD", targets: ["FeatureD"]),*/
     ], dependencies: [
         .package(
             url: "https://github.com/airbnb/lottie-ios.git",
